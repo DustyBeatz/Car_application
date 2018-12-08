@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   </head>
   <body>
+      <video autoplay muted loop id="videobckgrd" class="small-12 small-centered">
+          <source src="video/evo_video.mp4" type="video/mp4">
+      </video>
 
       <header id="mainHeader">
 
@@ -36,23 +39,24 @@
           <a href="index.html"><img src="images/mitsubishi_logo.png" width="120"></a>
       </div>
 
+      <section class="small-12 row">
+          <div id="welcomeText" class="small-12 text-center row">
+            <h1>WELCOME THE NEW EVO</h1>
+            <h2>You asked. We delivered.</h2>
+            <p>Bringing you the all new 2019 Mitsubishi Lancer Evolution X</p>
+            <button class="evoButton" type="button">EXPLORE THE EVO X</button>
+          </div>
+        </section>
+      
+        <section class="small-12 row">
+          <div class="small-12 text-right volumeCon">
+              <i class="fas fa-volume-up muteBut"></i>
+          </div>
+        </section>
+
   </header>
 
-  <section class="small-12 row">
-    <div id="welcomeText" class="small-12 text-center row">
-      <h1>WELCOME THE NEW EVO</h1>
-      <h2>You asked. We delivered.</h2>
-      <p>Bringing you the all new 2019 Mitsubishi Lancer Evolution X</p>
-      <button class="evoButton" type="button">EXPLORE THE EVO X</button>
-    </div>
-  </section>
-
-  <section class="small-12 row">
-    <div class="small-12 text-right volumeCon">
-        <i class="fas fa-volume-up"></i>
-    </div>
-  </section>
-
+  
 
 
     
@@ -60,5 +64,6 @@
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.js"></script>
     <script src="js/app.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
