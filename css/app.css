@@ -1,0 +1,188 @@
+body
+{
+    background-color: black;
+}
+
+.boxmodel
+{
+    height: 100px;
+    background-color: #E60012;
+}
+
+.title-bar
+{
+    background-color: #E60012;
+}
+
+.menu-icon::after
+{
+	background: #fff;
+	box-shadow: 0 7px 0 #fff, 0 14px 0 #fff
+}
+
+.menu-icon:hover::after
+{
+	background: #fff;
+	box-shadow: 0 7px 0 #fff, 0 14px 0 #fff;
+}
+
+#mainNav
+{
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+}
+
+#mainNav li a
+{
+	display: block;
+	padding: 10px 0 10px 0;
+    color: #fff;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 2em;
+}
+
+#logo
+{
+    background: rgb(103,103,103);
+    background: linear-gradient(96deg, rgba(103,103,103,1) 0%, rgba(200,200,200,1) 25%, rgba(209,209,209,1) 49%, rgba(200,200,200,1) 69%, rgba(103,103,103,1) 100%);
+}
+
+#logo img
+{
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+#welcomeText
+{
+    margin-top: 150px;
+}
+
+#welcomeText h1, h2, p
+{
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #fff;
+}
+
+#welcomeText h1
+{
+    font-size: 2em;
+}
+
+#welcomeText h2
+{
+    font-size: 1.625em;
+}
+
+#welcomeText p
+{
+    font-size: 1em;
+}
+
+.evoButton
+{
+    background: rgb(103,103,103);
+    background: linear-gradient(96deg, rgba(103,103,103,1) 0%, rgba(200,200,200,1) 25%, rgba(209,209,209,1) 49%, rgba(200,200,200,1) 69%, rgba(103,103,103,1) 100%);
+    padding: 10px 15px 10px 15px;
+    border-radius: 20px;
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 5px;
+    color: #000;
+}
+
+.evoButton:hover
+{
+    opacity: 0.7;
+}
+
+.evoButton:active
+{
+    opacity: 0.5;
+    margin-top: 2px;
+}
+
+.volumeCon i
+{
+    margin-top: 250px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 2em;
+}
+
+
+
+
+
+@media screen and (min-width: 64em) {
+	#mainHeader
+	{
+        position: relative;
+	}
+
+	#mainNav
+	{
+		text-align: right;
+        text-transform: uppercase;
+        background-color: #E60012;
+	}
+
+	#mainNav li
+	{
+		border-bottom: none;
+        display: inline-block;
+        text-decoration: none;
+        margin-left: 20px;
+	}
+
+	#mainNav li a
+	{
+		display: inline-block;
+        padding: 5px 0 5px 0;
+        border-bottom: 0px;
+        color: #fff;
+        padding-right: 40px;
+    }
+
+    .lineAnim::after
+    {
+        content: '';
+        display: block;
+        width: 0;
+        height: 2px;
+        background: #fff;
+        transition: width .3s;
+    }
+
+    .lineAnim:hover::after
+    {
+        width: 100%;
+        transition: width;
+    }
+
+    #logo
+    {
+        width: 250px;
+        background: #fff;
+        box-shadow: 5px 10px 20px #000;
+    }
+
+    #logo img
+    {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 200px;
+    }
+
+    .volumeCon i
+    {
+        margin-top: 150px;
+        margin-right: 20px;
+        margin-bottom: 10px;
+        color: #fff;
+        font-size: 2em;
+    }
+
+
+}
